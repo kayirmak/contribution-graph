@@ -1,0 +1,94 @@
+.graph-wrap {
+  display: flex;
+  column-gap: 4px;
+}
+
+.graph-contribution {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 119px;
+}
+
+.graph-months {
+  display: flex;
+  color: #959494;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.graph-day-names {
+  display: flex;
+  flex-direction: column;
+  color: #959494;
+  font-size: 12px;
+}
+
+.graph-day-names-item {
+  width: 15px;
+  height: 17px;
+}
+
+.cell {
+  width: 15px;
+  height: 15px;
+  background: #ededed;
+  margin: 1px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.cell:hover,
+.cell-active {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.tooltip {
+  width: 145px;
+  border-radius: 3px;
+  background: #000;
+  padding: 6px 9px;
+  position: absolute;
+  z-index: 999;
+  bottom: 21px;
+  right: -75px;
+}
+
+.tooltip h2 {
+  font-size: 12px;
+}
+
+.tooltip p {
+  font-size: 10px;
+  color: #7c7c7c;
+}
+
+.triangle {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.non-display {
+  display: none;
+}
+
+.blue4 {
+  background: #254e77;
+}
+
+.blue3 {
+  background: #527ba0;
+}
+
+.blue2 {
+  background: #7fa8c9;
+}
+
+.blue1 {
+  background: #acd5f2;
+}

@@ -1,3 +1,13 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +49,9 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.app {
+  background: #fff;
+  padding: 55px 95px 86px;
 }
